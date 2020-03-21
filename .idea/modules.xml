@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Ad_Drop_Spring_Cloud.iml" filepath="$PROJECT_DIR$/Ad_Drop_Spring_Cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adeureka/adeureka.iml" filepath="$PROJECT_DIR$/adeureka/adeureka.iml" />
     </modules>
   </component>
 </project>
