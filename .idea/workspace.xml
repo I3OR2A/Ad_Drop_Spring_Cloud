@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbcedef1-7667-47f4-9c7b-f3fd11a2856f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_unknown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-common/ad-common.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/advice/CommonResponseDataAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/annotation/IgnoreResponseAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/vo/CommonResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-ad-service/imooc-ad-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-ad-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/advice/GlobalExceptionAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/exception/AdException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,15 +44,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ad-gateway/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/advice" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-common\src\main\java\com\imooc\ad\advice" />
+      <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-common\src\main\java\com\imooc\ad\exception" />
       <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\ad-gateway\src\main\resources" />
       <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\ad-gateway\src\main\java\com\imooc\ad\filter" />
       <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\ad-gateway\src\main\java\com\imooc\ad" />
-      <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\adeureka\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Application.ZuulGatewayApplication">
