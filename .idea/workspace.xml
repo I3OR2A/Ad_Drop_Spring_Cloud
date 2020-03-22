@@ -2,30 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbcedef1-7667-47f4-9c7b-f3fd11a2856f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_zuul_zuul_core_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_zuul_2_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_zuul_2_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-gateway/ad-gateway.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-gateway/src/main/java/com/imooc/ad/ZuulGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-gateway/src/main/java/com/imooc/ad/filter/AccessLogFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-gateway/src/main/java/com/imooc/ad/filter/PreRequestFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_unknown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-common/ad-common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/advice/CommonResponseDataAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/annotation/IgnoreResponseAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/vo/CommonResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/imooc-ad-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_15_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adeureka/ad-eureka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ad-eureka/ad-eureka.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adeureka/adeureka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ad-eureka/adeureka.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adeureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ad-eureka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adeureka/src/main/java/com/imooc/ad/EurekaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-eureka/src/main/java/com/imooc/ad/EurekaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adeureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ad-eureka/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adeureka/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ad-eureka/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adeureka/target/classes/com/imooc/ad/EurekaApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/ad-eureka/target/classes/com/imooc/ad/EurekaApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -145,6 +133,10 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="855" y="256" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.2048.1152/2560.0.1920.1080@0.0.2048.1152" timestamp="1584794626540" />
+    <state x="1094" y="486" key="FileChooserDialogImpl" timestamp="1584855873031">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="1094" y="486" key="FileChooserDialogImpl/0.0.2048.1152/2560.0.1920.1080@0.0.2048.1152" timestamp="1584855873031" />
     <state width="1290" height="390" key="GridCell.Tab.0.bottom" timestamp="1584807421417">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
@@ -185,9 +177,9 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="1041" y="171" width="629" height="786" key="find.popup/0.0.2048.1152/2560.0.1920.1080@0.0.2048.1152" timestamp="1584793622190" />
-    <state x="551" y="279" key="new project wizard" timestamp="1584806492094">
+    <state x="742" y="426" key="new project wizard" timestamp="1584855905486">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="551" y="279" key="new project wizard/0.0.2048.1152/2560.0.1920.1080@0.0.2048.1152" timestamp="1584806492094" />
+    <state x="742" y="426" key="new project wizard/0.0.2048.1152/2560.0.1920.1080@0.0.2048.1152" timestamp="1584855905486" />
   </component>
 </project>

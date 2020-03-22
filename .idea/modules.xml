@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Ad_Drop_Spring_Cloud.iml" filepath="$PROJECT_DIR$/Ad_Drop_Spring_Cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imooc-ad-service/ad-common/ad-common.iml" filepath="$PROJECT_DIR$/imooc-ad-service/ad-common/ad-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/ad-eureka/ad-eureka.iml" filepath="$PROJECT_DIR$/ad-eureka/ad-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/ad-gateway/ad-gateway.iml" filepath="$PROJECT_DIR$/ad-gateway/ad-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imooc-ad-service/imooc-ad-service.iml" filepath="$PROJECT_DIR$/imooc-ad-service/imooc-ad-service.iml" />
     </modules>
   </component>
 </project>
