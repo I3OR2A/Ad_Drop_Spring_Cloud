@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbcedef1-7667-47f4-9c7b-f3fd11a2856f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/dao/unit_condition/AdUnitDistrictRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/dao/unit_condition/AdUnitItRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/dao/unit_condition/AdUnitKeywordRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/dao/unit_condition/CreativeUnitRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/constant/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/utils/CommonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/vo/CreateUserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/vo/CreateUserResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -46,7 +49,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/dao/unit_condition" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/utils" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -57,11 +60,11 @@
       <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-sponsor\src\main\java\com\imooc\ad\entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-sponsor\src\main\java\com\imooc\ad\dao\unit_condition" />
-      <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-sponsor\src\main\java\com\imooc\ad\dao" />
+      <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-sponsor\src\main\java\com\imooc\ad\utils" />
       <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-sponsor\src\main\java\com\imooc\ad\constant" />
-      <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-sponsor\src\main\java\com\imooc\ad\entity\unit_condition" />
-      <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-sponsor\src\main\java\com\imooc\ad\entity" />
+      <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-sponsor\src\main\java\com\imooc\ad\service\impl" />
+      <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-sponsor\src\main\java\com\imooc\ad\vo" />
+      <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-sponsor\src\main\java\com\imooc\ad\service" />
     </key>
   </component>
   <component name="RunManager" selected="Application.ZuulGatewayApplication">
