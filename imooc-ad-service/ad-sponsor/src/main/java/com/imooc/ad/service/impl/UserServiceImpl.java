@@ -39,17 +39,17 @@ public class UserServiceImpl implements IUserService {
         AdUser oldUser = userRepository.
                 findByUsername(request.getUsername());
         if (oldUser != null) {
-            throw new AdException(Constants.ErrorMsg.SAME_NAME_ERROR);
-        }
+        throw new AdException(Constants.ErrorMsg.SAME_NAME_ERROR);
+    }
 
-        AdUser newUser = userRepository.save(new AdUser(
-                request.getUsername(),
-                CommonUtils.md5(request.getUsername())
-        ));
+    AdUser newUser = userRepository.save(new AdUser(
+            request.getUsername(),
+            CommonUtils.md5(request.getUsername())
+    ));
 
         return new CreateUserResponse(
-                newUser.getId(), newUser.getUsername(), newUser.getToken(),
+            newUser.getId(), newUser.getUsername(), newUser.getToken(),
                 newUser.getCreateTime(), newUser.getUpdateTime()
-        );
-    }
+                        );
+}
 }
