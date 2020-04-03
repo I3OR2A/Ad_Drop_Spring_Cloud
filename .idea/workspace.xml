@@ -43,7 +43,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/vo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/imooc/ad/service/impl" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -177,6 +177,10 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="757" y="216" key="SettingsEditor/0.0.2048.1152/2560.0.1920.1080@0.0.2048.1152" timestamp="1584793255223" />
+    <state x="451" y="400" key="com.intellij.ide.util.TipDialog" timestamp="1585884566563">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="451" y="400" key="com.intellij.ide.util.TipDialog/0.0.2048.1152/2560.0.1920.1080@0.0.2048.1152" timestamp="1585884566563" />
     <state x="1041" y="171" width="629" height="786" key="find.popup" timestamp="1584793622190">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
