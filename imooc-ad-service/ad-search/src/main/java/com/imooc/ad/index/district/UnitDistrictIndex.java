@@ -84,5 +84,4 @@ public class UnitDistrictIndex implements IndexAware<String, Set<Long>> {
 
         log.info("UnitDistrictIndex, after delete: {}", unitDistrictMap);
     }
-
 }

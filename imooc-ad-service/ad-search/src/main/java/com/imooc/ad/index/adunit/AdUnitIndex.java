@@ -27,6 +27,40 @@ public class AdUnitIndex implements IndexAware<Long, AdUnitObject> {
         objectMap = new ConcurrentHashMap<>();
     }
 
+    public Set<Long> match(Integer positionType) {
+
+        Set<Long> adUnitIds = new HashSet<>();
+
+        objectMap.forEach((k, v) -> {
+            if (AdUnitObject.isAdSlotTypeOK(positionType,
+                    v.getPositionType())) {
+                adUnitIds.add(k);
+            }
+        });
+
+        return adUnitIds;
+    }
+
+    public List<AdUnitObject> fetch(Collection<Long> adUnitIds) {
+
+        if (CollectionUtils.isEmpty(adUnitIds)) {
+            return Collections.emptyList();
+        }
+
+        List<AdUnitObject> result = new ArrayList<>();
+
+        adUnitIds.forEach(u -> {
+            AdUnitObject object = get(u);
+            if (object == null) {
+                log.error("AdUnitObject not found: {}", u);
+                return;
+            }
+            result.add(object);
+        });
+
+        return result;
+    }
+
     @Override
     public AdUnitObject get(Long key) {
         return objectMap.get(key);
