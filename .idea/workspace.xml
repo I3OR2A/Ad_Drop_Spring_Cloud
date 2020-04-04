@@ -43,7 +43,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/test/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/test/java/com/imooc/ad/service" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -55,11 +55,11 @@
       <recent name="com.imooc.ad.client" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-sponsor\src\test\java\com\imooc\ad\service" />
       <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-sponsor\src\test\resources" />
       <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-sponsor\src\test" />
       <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-sponsor\src\test\java\com\imooc\ad" />
       <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-common\src\main\java\com\imooc\ad\dump\table" />
-      <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-common\src\main\java\com\imooc\ad\dump" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-sponsor\src\main\java\com\imooc\ad\entity" />
