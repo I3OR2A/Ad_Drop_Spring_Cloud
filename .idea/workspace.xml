@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbcedef1-7667-47f4-9c7b-f3fd11a2856f" name="Default Changelist" comment="" />
+    <list default="true" id="fbcedef1-7667-47f4-9c7b-f3fd11a2856f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/dump/DConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/dump/table/AdCreativeTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/dump/table/AdCreativeUnitTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/dump/table/AdPlanTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/dump/table/AdUnitDistrictTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/dump/table/AdUnitItTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/dump/table/AdUnitKeywordTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +50,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/dump/table" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -52,11 +61,11 @@
       <recent name="com.imooc.ad.client" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-common\src\main\java\com\imooc\ad\dump\table" />
+      <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-common\src\main\java\com\imooc\ad\dump" />
+      <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-search\src\main\java\com\imooc\ad\index" />
       <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-search\src\main\java\com\imooc\ad\index\adunit" />
       <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-search\src\main\java\com\imooc\ad\utils" />
-      <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-search\src\main\java\com\imooc\ad\index\district" />
-      <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-search\src\main\java\com\imooc\ad\index\creativeunit" />
-      <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-search\src\main\java\com\imooc\ad\index\creative" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-sponsor\src\main\java\com\imooc\ad\entity" />
