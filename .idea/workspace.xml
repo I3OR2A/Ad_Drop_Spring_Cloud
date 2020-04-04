@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbcedef1-7667-47f4-9c7b-f3fd11a2856f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/dump/DConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/dump/table/AdCreativeTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/dump/table/AdCreativeUnitTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/dump/table/AdPlanTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/dump/table/AdUnitDistrictTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/dump/table/AdUnitItTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/dump/table/AdUnitKeywordTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/test/java/com/imooc/ad/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/test/java/com/imooc/ad/service/DumpDataService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/test/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/ad-sponsor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/ad-sponsor.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +47,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/imooc/ad/dump/table" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/test/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -58,14 +55,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.imooc.ad.service" />
       <recent name="com.imooc.ad.client" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-sponsor\src\test\resources" />
+      <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-sponsor\src\test" />
+      <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-sponsor\src\test\java\com\imooc\ad" />
       <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-common\src\main\java\com\imooc\ad\dump\table" />
       <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-common\src\main\java\com\imooc\ad\dump" />
-      <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-search\src\main\java\com\imooc\ad\index" />
-      <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-search\src\main\java\com\imooc\ad\index\adunit" />
-      <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-search\src\main\java\com\imooc\ad\utils" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-sponsor\src\main\java\com\imooc\ad\entity" />
@@ -77,7 +75,7 @@
       <module name="ad-eureka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.imooc.ad.*" />
+          <option name="PATTERN" value="com.imooc.ad.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,7 +88,7 @@
       <module name="ad-gateway" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.imooc.ad.*" />
+          <option name="PATTERN" value="com.imooc.ad.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,10 +145,10 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="855" y="256" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.2048.1152/2560.0.1920.1080@0.0.2048.1152" timestamp="1584794626540" />
-    <state x="383" y="438" width="591" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1585987160146">
+    <state x="383" y="438" width="591" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586015921767">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="383" y="438" width="591" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2048.1152/2560.0.1920.1080@0.0.2048.1152" timestamp="1585987160146" />
+    <state x="383" y="438" width="591" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2048.1152/2560.0.1920.1080@0.0.2048.1152" timestamp="1586015921767" />
     <state x="353" y="326" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586005912445">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
