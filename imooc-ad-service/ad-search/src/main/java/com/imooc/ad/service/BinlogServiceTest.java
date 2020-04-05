@@ -39,7 +39,7 @@ public class BinlogServiceTest {
                 "127.0.0.1",
                 3306,
                 "root",
-                "Djangobbs"
+                "root"
         );
 //        client.setBinlogFilename("binlog.000037");
 //        client.setBinlogPosition();
