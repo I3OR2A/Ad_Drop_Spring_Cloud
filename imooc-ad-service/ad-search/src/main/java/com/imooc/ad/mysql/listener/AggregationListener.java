@@ -107,7 +107,64 @@ public class AggregationListener implements BinaryLogClient.EventListener {
         }
     }
 
+    private List<Serializable[]> getAfterValues(EventData eventData) {
+
+        if (eventData instanceof WriteRowsEventData) {
+            return ((WriteRowsEventData) eventData).getRows();
+        }
+
+        if (eventData instanceof UpdateRowsEventData) {
+            return ((UpdateRowsEventData) eventData).getRows().stream()
+                    .map(Map.Entry::getValue)
+                    .collect(Collectors.toList());
+        }
+
+        if (eventData instanceof DeleteRowsEventData) {
+            return ((DeleteRowsEventData) eventData).getRows();
+        }
+
+        return Collections.emptyList();
+    }
+
     private BinlogRowData buildRowData(EventData eventData) {
-        return null;
+
+        TableTemplate table = templateHolder.getTable(tableName);
+
+        if (null == table) {
+            log.warn("table {} not found", tableName);
+            return null;
+        }
+
+        List<Map<String, String>> afterMapList = new ArrayList<>();
+
+        for (Serializable[] after : getAfterValues(eventData)) {
+
+            Map<String, String> afterMap = new HashMap<>();
+
+            int colLen = after.length;
+
+            for (int ix = 0; ix < colLen; ++ix) {
+
+                // 取出当前位置对应的列名
+                String colName = table.getPosMap().get(ix);
+
+                // 如果没有则说明不关心这个列
+                if (null == colName) {
+                    log.debug("ignore position: {}", ix);
+                    continue;
+                }
+
+                String colValue = after[ix].toString();
+                afterMap.put(colName, colValue);
+            }
+
+            afterMapList.add(afterMap);
+        }
+
+        BinlogRowData rowData = new BinlogRowData();
+        rowData.setAfter(afterMapList);
+        rowData.setTable(table);
+
+        return rowData;
     }
 }
