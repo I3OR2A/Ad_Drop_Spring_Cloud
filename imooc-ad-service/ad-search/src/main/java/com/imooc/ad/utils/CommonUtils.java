@@ -32,4 +32,24 @@ public class CommonUtils {
         result.deleteCharAt(result.length() - 1);
         return result.toString();
     }
+
+    // Tue Jan 01 08:00:00 CST 2019
+    public static Date parseStringDate(String dateString) {
+
+        try {
+
+            DateFormat dateFormat = new SimpleDateFormat(
+                    "EEE MMM dd HH:mm:ss zzz yyyy",
+                    Locale.US
+            );
+            return DateUtils.addHours(
+                    dateFormat.parse(dateString),
+                    -8
+            );
+
+        } catch (ParseException ex) {
+            log.error("parseStringDate error: {}", dateString);
+            return null;
+        }
+    }
 }
