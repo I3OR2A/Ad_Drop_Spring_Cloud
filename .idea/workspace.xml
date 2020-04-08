@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbcedef1-7667-47f4-9c7b-f3fd11a2856f" name="Default Changelist" comment="" />
+    <list default="true" id="fbcedef1-7667-47f4-9c7b-f3fd11a2856f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/ISearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/vo/SearchRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/vo/feature/DistrictFeature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/vo/feature/FeatureRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/vo/feature/ItFeature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/vo/feature/KeywordFeature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/vo/media/AdSlot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +50,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/sender/kafka" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/vo/media" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -56,11 +65,11 @@
       <recent name="com.imooc.ad.client" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-search\src\main\java\com\imooc\ad\sender\index" />
-      <recent name="D:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-search\src\main\java\com\imooc\ad\mysql" />
-      <recent name="D:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-search\src\main\java\com\imooc\ad\runner" />
-      <recent name="D:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-search\src\main\java\com\imooc\ad\mysql\constant" />
-      <recent name="D:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-search\src\main\java\com\imooc\ad\mysql\listener" />
+      <recent name="D:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-search\src\main\java\com\imooc\ad\search\vo\media" />
+      <recent name="D:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-search\src\main\java\com\imooc\ad\search\vo\feature" />
+      <recent name="D:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-search\src\main\java\com\imooc\ad\search\vo" />
+      <recent name="D:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-search\src\main\java\com\imooc\ad\search" />
+      <recent name="D:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-search\src\main\java\com\imooc\ad\sender\kafka" />
     </key>
   </component>
   <component name="RunManager" selected="Application.ZuulGatewayApplication">
