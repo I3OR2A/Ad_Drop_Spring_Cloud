@@ -38,7 +38,12 @@ import java.util.Set;
 @Service
 public class SearchImpl implements ISearch {
 
+    public SearchResponse fallback(SearchRequest request, Throwable e) {
+        return null;
+    }
+
     @Override
+    @HystrixCommand(fallbackMethod = "fallback")
     public SearchResponse fetchAds(SearchRequest request) {
 
         // 请求的广告位信息
@@ -67,9 +72,109 @@ public class SearchImpl implements ISearch {
             Set<Long> adUnitIdSet = DataTable.of(
                     AdUnitIndex.class
             ).match(adSlot.getPositionType());
+
+            if (relation == FeatureRelation.AND) {
+
+                filterKeywordFeature(adUnitIdSet, keywordFeature);
+                filterDistrictFeature(adUnitIdSet, districtFeature);
+                filterItTagFeature(adUnitIdSet, itFeature);
+
+                targetUnitIdSet = adUnitIdSet;
+
+            } else {
+                targetUnitIdSet = getORRelationUnitIds(
+                        adUnitIdSet,
+                        keywordFeature,
+                        districtFeature,
+                        itFeature
+                );
+            }
+
         }
 
         return null;
+    }
+
+    private Set<Long> getORRelationUnitIds(Set<Long> adUnitIdSet,
+                                           KeywordFeature keywordFeature,
+                                           DistrictFeature districtFeature,
+                                           ItFeature itFeature) {
+
+        if (CollectionUtils.isEmpty(adUnitIdSet)) {
+            return Collections.emptySet();
+        }
+
+        Set<Long> keywordUnitIdSet = new HashSet<>(adUnitIdSet);
+        Set<Long> districtUnitIdSet = new HashSet<>(adUnitIdSet);
+        Set<Long> itUnitIdSet = new HashSet<>(adUnitIdSet);
+
+        filterKeywordFeature(keywordUnitIdSet, keywordFeature);
+        filterDistrictFeature(districtUnitIdSet, districtFeature);
+        filterItTagFeature(itUnitIdSet, itFeature);
+
+        return new HashSet<>(
+                CollectionUtils.union(
+                        CollectionUtils.union(keywordUnitIdSet, districtUnitIdSet),
+                        itUnitIdSet
+                )
+        );
+    }
+
+    private void filterKeywordFeature(
+            Collection<Long> adUnitIds, KeywordFeature keywordFeature) {
+
+        if (CollectionUtils.isEmpty(adUnitIds)) {
+            return;
+        }
+
+        if (CollectionUtils.isNotEmpty(keywordFeature.getKeywords())) {
+
+            CollectionUtils.filter(
+                    adUnitIds,
+                    adUnitId ->
+                            DataTable.of(UnitKeywordIndex.class)
+                                    .match(adUnitId,
+                                            keywordFeature.getKeywords())
+            );
+        }
+    }
+
+    private void filterDistrictFeature(
+            Collection<Long> adUnitIds, DistrictFeature districtFeature
+    ) {
+        if (CollectionUtils.isEmpty(adUnitIds)) {
+            return;
+        }
+
+        if (CollectionUtils.isNotEmpty(districtFeature.getDistricts())) {
+
+            CollectionUtils.filter(
+                    adUnitIds,
+                    adUnitId ->
+                            DataTable.of(UnitDistrictIndex.class)
+                                    .match(adUnitId,
+                                            districtFeature.getDistricts())
+            );
+        }
+    }
+
+    private void filterItTagFeature(Collection<Long> adUnitIds,
+                                    ItFeature itFeature) {
+
+        if (CollectionUtils.isEmpty(adUnitIds)) {
+            return;
+        }
+
+        if (CollectionUtils.isNotEmpty(itFeature.getIts())) {
+
+            CollectionUtils.filter(
+                    adUnitIds,
+                    adUnitId ->
+                            DataTable.of(UnitItIndex.class)
+                                    .match(adUnitId,
+                                            itFeature.getIts())
+            );
+        }
     }
 
 }

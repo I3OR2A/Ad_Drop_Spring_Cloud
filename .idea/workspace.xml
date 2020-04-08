@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbcedef1-7667-47f4-9c7b-f3fd11a2856f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/adunit/AdUnitConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/impl/SearchImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/vo/media/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/vo/media/Device.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/vo/media/Geo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/adunit/AdUnitIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/adunit/AdUnitIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/adunit/AdUnitObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/adunit/AdUnitObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/vo/SearchRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/vo/SearchRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/district/UnitDistrictIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/index/district/UnitDistrictIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/impl/SearchImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/imooc/ad/search/impl/SearchImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,10 +61,10 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-search\src\main\java\com\imooc\ad\search\impl" />
+      <recent name="D:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-search\src\main\java\com\imooc\ad\index\district" />
       <recent name="D:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-search\src\main\java\com\imooc\ad\index\adunit" />
       <recent name="D:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-search\src\main\java\com\imooc\ad\search\vo" />
       <recent name="D:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-search\src\main\java\com\imooc\ad\search\vo\media" />
-      <recent name="D:\GitHub\Ad_Drop_Spring_Cloud\imooc-ad-service\ad-search\src\main\java\com\imooc\ad\search" />
     </key>
   </component>
   <component name="RunManager" selected="Application.ZuulGatewayApplication">
